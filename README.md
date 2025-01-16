@@ -17,7 +17,9 @@ bat program.py
 export MANPAGER="sh -c 'sed -u -e \"s/\\x1B\[[0-9;]*m//g; s/.\\x08//g\" | bat -p -lman'"
 ```
 To make it persistent, add it to your ~/.bashrc or ~/.zshrc file
-
+```
+source .zshrc
+```
 ## Test it
 ```
 man 2 write
