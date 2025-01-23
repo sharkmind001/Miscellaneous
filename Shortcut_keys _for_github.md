@@ -10,7 +10,9 @@ shortcut
 
 
 
-
+```py
+print("hello")
+```
 
 
 
