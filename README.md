@@ -27,7 +27,9 @@ source .zshrc
 ## Test it
 ```
 man 2 write
-#or....
+```
+or
+```
 man fwrite
 ```
 
