@@ -25,8 +25,7 @@ Update the client configuration to send keep-alive messages more frequently than
 
 1.  **Increase `ServerAliveInterval`:**
     *   Go to `C:\Users\SuperUser\.ssh` and open `config` file.
-    *   Set a smaller interval, e.g., 30 seconds:
-    *   Here we will set 3000000 seconds for long alive time.
+    *   Set a smaller interval, e.g., 30 seconds:  
 
 ```
   Host 3.110.117.181
@@ -37,6 +36,7 @@ Update the client configuration to send keep-alive messages more frequently than
   ServerAliveCountMax 0
 ```
 **Option 2**
+     *   Here we will set 3000000 seconds for long alive time.
 ```
   Host 3.110.117.181
   HostName 3.110.117.181
