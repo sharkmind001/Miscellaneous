@@ -28,8 +28,8 @@ Update the client configuration to send keep-alive messages more frequently than
     *   Set a smaller interval, e.g., 30 seconds:  
 
 ```
-  Host 3.110.117.181
-  HostName 3.110.117.181
+  Host 3.110.117.180
+  HostName 3.110.117.180
   IdentityFile C:\custom_tools\ssh_key.pem
   User ubuntu
   ServerAliveInterval 30
@@ -38,8 +38,8 @@ Update the client configuration to send keep-alive messages more frequently than
 **Option 2**
      *   Here we will set 3000000 seconds for long alive time.
 ```
-  Host 3.110.117.181
-  HostName 3.110.117.181
+  Host 3.110.117.180
+  HostName 3.110.117.180
   IdentityFile C:\custom_tools\ssh_key.pem
   User ubuntu
   ServerAliveInterval 3000000
