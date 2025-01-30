@@ -28,13 +28,7 @@ Run the following command in **PowerShell**:
 
 ```
 icacls "aws_key.pem" /inheritance:r
-```
-
-```
 icacls "aws_key.pem" /grant:r "%USERNAME%:R"
-```
-
-```
 icacls "aws_key.pem" /deny "Everyone:F"
 ```
 
@@ -47,26 +41,14 @@ This ensures only your user has read access.
 Use the following command:
 
 ```
-ssh -i 
-```
-
-"C:\\Users\\YourUser\\Downloads\\aws\_key.pem"
-
-```
- ubuntu@<Your-EC2-Public-IP>
+ssh -i "C:\\Users\\YourUser\\Downloads\\aws\_key.pem" ubuntu@<Your-EC2-Public-IP>
 ```
 
 *   Replace `<Your-EC2-Public-IP>` with your **EC2 instance's public IP address** (found in AWS console).
 *   Example:
 
 ```
-ssh -i 
-```
-
-"aws\_key.pem"
-
-```
- ubuntu@3.110.117.181
+ssh -i "aws\_key.pem" ubuntu@3.110.117.181
 ```
 
 ### **Step 5: Verify Connection**
@@ -79,41 +61,7 @@ ubuntu@ip-172-31-XX-XX:~$
 
 You are now inside your AWS Linux machine!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Create aws.bat file to open by double click.
 ```
 cd C:\custom_tools\
 ssh -i "ssh_key.pem" ubuntu@3.110.117.180
