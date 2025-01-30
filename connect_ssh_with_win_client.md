@@ -41,14 +41,14 @@ This ensures only your user has read access.
 Use the following command:
 
 ```
-ssh -i "C:\\Users\\YourUser\\Downloads\\aws\_key.pem" ubuntu@<Your-EC2-Public-IP>
+ssh -i "C:\Users\YourUser\Downloads\aws_key.pem" ubuntu@<Your-EC2-Public-IP>
 ```
 
 *   Replace `<Your-EC2-Public-IP>` with your **EC2 instance's public IP address** (found in AWS console).
 *   Example:
 
 ```
-ssh -i "aws\_key.pem" ubuntu@3.110.117.181
+ssh -i "aws_key.pem" ubuntu@3.110.117.180
 ```
 
 ### **Step 5: Verify Connection**
