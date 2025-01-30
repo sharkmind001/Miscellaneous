@@ -49,5 +49,5 @@ Update the client configuration to send keep-alive messages more frequently than
 2.  **Test the Connection Again:**
 
 ```
-ssh 3.110.117.181
+ssh 3.110.117.180
 ```
