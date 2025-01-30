@@ -5,7 +5,7 @@ Ensure the server is set up correctly to keep the connection alive:
 1.  **Check the Server's SSH Daemon Config:**
     *   On the server (AWS instance), edit the SSH configuration file:
 ```
-sudo nano /etc/ssh/sshd\_config
+sudo nano /etc/ssh/sshd_config
 ```
 *   Look for these parameters, and set them as follows if not already configured:
 ```
