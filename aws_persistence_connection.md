@@ -48,8 +48,7 @@ This ensures the client sends keep-alive packets every 30 seconds.
   ServerAliveCountMax 0
 ```
 This will keep-alve for 833.33 hours.
-**2.  Test the Connection Again:
-**
+**2.  Test the Connection Again:**
 ```
 ssh 3.110.117.180
 ```
