@@ -61,7 +61,7 @@ ubuntu@ip-172-31-XX-XX:~$
 
 You are now inside your AWS Linux machine!
 
-### Create aws.bat file to open by double click.
+### Step6: Create aws.bat file to open by double click.
 ```
 cd C:\custom_tools\
 ssh -i "ssh_key.pem" ubuntu@3.110.117.180
