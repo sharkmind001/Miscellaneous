@@ -24,7 +24,9 @@ sudo systemctl restart sshd
 Update the client configuration to send keep-alive messages more frequently than the server's timeout setting:
 
 1.  **Increase `ServerAliveInterval`:**
+    *   Go to `C:\Users\SuperUser\.ssh` and open `config` file.
     *   Set a smaller interval, e.g., 30 seconds:
+    *   Here we will set 3000000 seconds for long alive time.
 
 ```
   Host 3.110.117.181
@@ -34,7 +36,15 @@ Update the client configuration to send keep-alive messages more frequently than
   ServerAliveInterval 30
   ServerAliveCountMax 0
 ```
-
+**Option 2**
+```
+  Host 3.110.117.181
+  HostName 3.110.117.181
+  IdentityFile C:\custom_tools\ssh_key.pem
+  User ubuntu
+  ServerAliveInterval 3000000
+  ServerAliveCountMax 0
+```
 1.  This ensures the client sends keep-alive packets every 30 seconds.
 2.  **Test the Connection Again:**
 
