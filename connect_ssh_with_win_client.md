@@ -62,6 +62,8 @@ ubuntu@ip-172-31-XX-XX:~$
 You are now inside your AWS Linux machine!
 
 ### Step6: Create aws.bat file to open by double click.
+
+Create `aws.bat` file and write following code and place `ssh_key.pem` file in the same directory.
 ```
 cd C:\custom_tools\
 ssh -i "ssh_key.pem" ubuntu@3.110.117.180
