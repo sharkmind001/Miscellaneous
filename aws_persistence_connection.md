@@ -35,6 +35,8 @@ Update the client configuration to send keep-alive messages more frequently than
   ServerAliveInterval 30
   ServerAliveCountMax 0
 ```
+This ensures the client sends keep-alive packets every 30 seconds.
+
 **Option 2**
      *   Here we will set 3000000 seconds for long alive time.
 ```
@@ -45,7 +47,7 @@ Update the client configuration to send keep-alive messages more frequently than
   ServerAliveInterval 3000000
   ServerAliveCountMax 0
 ```
-1.  This ensures the client sends keep-alive packets every 30 seconds.
+This will keep-alve for 833.33hours.
 2.  **Test the Connection Again:**
 
 ```
