@@ -1,4 +1,4 @@
-**1\. Verify the Server Configuration**
+### **1\. Verify the Server Configuration**
 
 Ensure the server is set up correctly to keep the connection alive:
 
@@ -10,7 +10,6 @@ sudo nano /etc/ssh/sshd\_config
 *   Look for these parameters, and set them as follows if not already configured:
 ```
 ClientAliveInterval 120
-
 ClientAliveCountMax 0
 ```
 *   ClientAliveInterval: Time in seconds to wait before sending a keep-alive packet.
@@ -29,15 +28,10 @@ Update the client configuration to send keep-alive messages more frequently than
 
 ```
   Host 3.110.117.181
-
   HostName 3.110.117.181
-
   IdentityFile C:\custom_tools\ssh_key.pem
-
   User ubuntu
-
   ServerAliveInterval 30
-
   ServerAliveCountMax 0
 ```
 
